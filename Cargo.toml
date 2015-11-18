@@ -10,7 +10,7 @@ license = "MIT"
 
 [dependencies]
 debug_unreachable = "*"
-oncemutex = "*"
+oncemutex = { git = "https://github.com/aepsil0n/rust-once-mutex.git", branch = "update" }
 
 [dev-dependencies]
 stainless = "*"

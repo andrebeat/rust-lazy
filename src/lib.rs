@@ -1,5 +1,4 @@
 #![deny(missing_docs, warnings)]
-#![feature(core)]
 
 //! Lazy evaluation for Rust.
 
@@ -33,4 +32,3 @@ macro_rules! sync_lazy {
         $crate::sync::Thunk::new(move || { $e })
     }
 }
-
